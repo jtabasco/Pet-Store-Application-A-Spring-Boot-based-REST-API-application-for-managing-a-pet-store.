@@ -1,0 +1,37 @@
+# Main Spring Boot configuration
+spring:
+  # Database connection configuration
+  datasource:
+    # Username to access MySQL
+    # This user must exist in MySQL and have the necessary permissions
+    username: pet_store
+    # Password to access MySQL
+    # Must match the user's password in MySQL
+    password: pet_store
+    # MySQL connection URL
+    # Format: jdbc:mysql://[host]:[port]/[database_name]
+    # - localhost: The server where MySQL is running
+    # - 3306: MySQL's default port
+    # - pet_store: The database name
+    # If the database doesn't exist, it will be created automatically
+    url: jdbc:mysql://localhost:3306/pet_store
+  # JPA (Java Persistence API) configuration
+  jpa:
+    # Hibernate configuration (the ORM used by JPA)
+    hibernate:
+      # ddl-auto: Configures Hibernate's behavior with tables
+      # Available options:
+      # - create: Drops and recreates tables at startup
+      # - create-drop: Drops and recreates at startup, drops at shutdown
+      # - update: Updates existing tables
+      # - validate: Only validates that tables exist
+      # - none: Does nothing with tables
+      # In this case we use 'create' for development
+      ddl-auto: create
+    # Shows SQL queries in the console
+    # Useful for:
+    # - Debugging
+    # - Seeing what Hibernate is doing
+    # - Query optimization
+    show-sql: true
+    
