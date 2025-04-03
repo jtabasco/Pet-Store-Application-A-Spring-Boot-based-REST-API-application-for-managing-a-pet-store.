@@ -13,7 +13,6 @@ spring:
     # - localhost: The server where MySQL is running
     # - 3306: MySQL's default port
     # - pet_store: The database name
-    # If the database doesn't exist, it will be created automatically
     url: jdbc:mysql://localhost:3306/pet_store
   # JPA (Java Persistence API) configuration
   jpa:
