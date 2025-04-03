@@ -1,4 +1,4 @@
-# Pet Store Application
+# 🐾 Pet Store Application
 
 A Spring Boot-based REST API application for managing a pet store. This application provides endpoints for managing pets, their information, and related operations.
 
@@ -63,20 +63,6 @@ Run the tests using:
 ```bash
 mvn test
 ```
-
-## 📚 API Documentation
-
-The API documentation will be available at:
-- Swagger UI: `http://localhost:8080/swagger-ui.html`
-- OpenAPI JSON: `http://localhost:8080/v3/api-docs`
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📄 License
 
