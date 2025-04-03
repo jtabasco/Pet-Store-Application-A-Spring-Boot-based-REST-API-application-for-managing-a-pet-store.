@@ -1,4 +1,4 @@
-# Pet Store Application
+# 🐾 Pet Store Application
 
 A Spring Boot-based REST API application for managing a pet store. This application provides endpoints for managing pets, their information, and related operations.
 
