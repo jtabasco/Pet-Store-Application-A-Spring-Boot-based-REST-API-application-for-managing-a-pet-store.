@@ -68,6 +68,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Joel Tabasco**
   - Email: jtabasco41@gmail.com
   - GitHub: [jtabasco](https://github.com/jtabasco)
+  - Video: [Video](https://youtu.be/bmJ8fLF-Z3Y)
 
 ## 🙏 Acknowledgments
 
