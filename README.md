@@ -1,13 +1,15 @@
 # 🐾 Pet Store Application
 
-A Spring Boot-based REST API application for managing a pet store. This application provides endpoints for managing pets, their information, and related operations.
+A Spring Boot-based REST API application for managing a pet store. This application provides endpoints for managing pet stores, customers, employees, and related operations.
 
 ## 🚀 Features
 
-- RESTful API endpoints for pet management
+- RESTful API endpoints for pet store management
+- Create and modify pet store
 - MySQL database integration
 - Spring Data JPA for data persistence
 - Lombok for reducing boilerplate code
+- Global error handling
 - Comprehensive testing setup
 
 ## 🛠️ Technologies Used
@@ -50,14 +52,38 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-## 📝 Configuration
+## 📝 API Endpoints
 
-The application uses the following default configuration:
-- Server port: 8080
-- Database: MySQL
-- JPA properties are configured for development
+### Pet Store Endpoints
+
+- `POST /pet_store` - Create a new pet store
+- `PUT /pet_store/{petStoreId}` - Update an existing pet store
 
 
+### Example Request
+
+```json
+{
+  "petStoreName": "Happy Pets Store",
+  "petStoreAddress": "123 Main Street",
+  "petStoreCity": "New York",
+  "petStoreState": "NY",
+  "petStoreZip": "10001",
+  "petStorePhone": "212-555-1234"
+}
+```
+
+## 🏗️ Project Structure
+
+- `controller` - REST controllers for handling HTTP requests
+- `service` - Business logic layer
+- `dao` - Data Access Objects for database operations
+- `entity` - JPA entities representing database tables
+- `model` - Data Transfer Objects (DTOs) for API requests/responses
+
+## 🔍 Error Handling
+
+The application includes a global error handler that provides consistent error responses across all endpoints. For example, when a resource is not found, a 404 Not Found response is returned with a descriptive message.
 
 ## 📄 License
 
@@ -68,7 +94,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Joel Tabasco**
   - Email: jtabasco41@gmail.com
   - GitHub: [jtabasco](https://github.com/jtabasco)
-  - Video: [Video](https://youtu.be/bmJ8fLF-Z3Y)
+  - Video: [Video week 13](https://youtu.be/bmJ8fLF-Z3Y)
+  - Video: [Video week 14](https://youtu.be/Tw-xRZWt5tU)
 
 ## 🙏 Acknowledgments
 

@@ -26,7 +26,7 @@ spring:
       # - validate: Only validates that tables exist
       # - none: Does nothing with tables
       # In this case we use 'create' for development
-      ddl-auto: create
+      ddl-auto: update
     # Shows SQL queries in the console
     # Useful for:
     # - Debugging
