@@ -88,7 +88,7 @@ public class PetStoreData {
      * It contains all the necessary fields to represent an employee.
      */
     @Data // Annotation to generate getters, setters, and toString method.
-    @NoArgsConstructor // Annotation to generate a no-argument constructor.
+    @NoArgsConstructor(force = true) // Annotation to generate a no-argument constructor.
     public static class PetStoreEmployee {
         private Long employeeId;
         private String employeeFirstName;

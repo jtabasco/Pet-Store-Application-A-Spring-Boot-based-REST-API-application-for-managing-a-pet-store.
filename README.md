@@ -94,8 +94,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Joel Tabasco**
   - Email: jtabasco41@gmail.com
   - GitHub: [jtabasco](https://github.com/jtabasco)
-  - Video: [Video week 13](https://youtu.be/bmJ8fLF-Z3Y)
-  - Video: [Video week 14](https://youtu.be/Tw-xRZWt5tU)
+  - Video: [week 13](https://youtu.be/bmJ8fLF-Z3Y)
+  - Video: [week 14](https://youtu.be/Tw-xRZWt5tU)
+  - Video: [week 15 final](https://youtu.be/JC3noWC57eQ)
 
 ## 🙏 Acknowledgments
 
