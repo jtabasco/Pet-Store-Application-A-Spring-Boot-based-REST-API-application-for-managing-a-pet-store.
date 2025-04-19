@@ -73,7 +73,7 @@ mvn spring-boot:run
   "petStoreZip": "10001",
   "petStorePhone": "212-555-1234"
 }
-
+```
 ```json
 {
   "employeeFirstName": "Samantha",
@@ -81,12 +81,14 @@ mvn spring-boot:run
   "employeeEmail": "samantha_burns@ngo.gov",
   "employeeJobTitle": "Manager"
 }
+```
 ```json
 {
     "customerFirstName": "John",
     "customerLastName": "Doe",
     "customerEmail": "john.doe@example.com"
 }
+```
 
 ## 🏗️ Project Structure
 
