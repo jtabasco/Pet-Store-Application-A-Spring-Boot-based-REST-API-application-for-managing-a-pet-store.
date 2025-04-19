@@ -58,7 +58,9 @@ mvn spring-boot:run
 
 - `POST /pet_store` - Create a new pet store
 - `PUT /pet_store/{petStoreId}` - Update an existing pet store
-
+- `POST /pet_store/{petStoreId}/employee` - Create a new employee for        petStoreId
+- `POST /pet_store/{petStoreId}/customer` - Create a new customer for        petStoreId
+- `DELETE /pet_store{petStoreId}` - Delete a pet store by id
 
 ### Example Request
 
@@ -71,7 +73,20 @@ mvn spring-boot:run
   "petStoreZip": "10001",
   "petStorePhone": "212-555-1234"
 }
-```
+
+```json
+{
+  "employeeFirstName": "Samantha",
+  "employeeLastName": "Burns",
+  "employeeEmail": "samantha_burns@ngo.gov",
+  "employeeJobTitle": "Manager"
+}
+```json
+{
+    "customerFirstName": "John",
+    "customerLastName": "Doe",
+    "customerEmail": "john.doe@example.com"
+}
 
 ## 🏗️ Project Structure
 
